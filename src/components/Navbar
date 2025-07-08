@@ -1,0 +1,41 @@
+// src/components/Navbar.jsx
+import React from 'react';
+import { Box, Flex, Link, Stack, Button, Image, useColorMode, useColorModeValue } from '@chakra-ui/react';
+import { Link as RouterLink } from 'react-router-dom';
+
+const Navbar = () => {
+  const { colorMode, toggleColorMode } = useColorMode();
+  const bg = useColorModeValue('white', 'gray.800');
+  const color = useColorModeValue('gray.800', 'white');
+
+  return (
+    <Box bg={bg} px={4} boxShadow="md">
+      <Flex h={16} alignItems="center" justifyContent="space-between">
+        <Flex alignItems="center">
+          <Image src="/path/to/your/logo.png" alt="CryptoApp Logo" boxSize="40px" mr={4} />
+          <Box fontWeight="bold" fontSize="xl" color={color}>
+            CryptoApp
+          </Box>
+        </Flex>
+        <Flex alignItems="center">
+          <Stack direction="row" spacing={4} alignItems="center">
+            <Link as={RouterLink} to="/" color={color} _hover={{ textDecoration: 'none', color: 'teal.500' }}>
+              Home
+            </Link>
+            <Link as={RouterLink} to="/exchanges" color={color} _hover={{ textDecoration: 'none', color: 'teal.500' }}>
+              Exchanges
+            </Link>
+            <Link as={RouterLink} to="/coins" color={color} _hover={{ textDecoration: 'none', color: 'teal.500' }}>
+              Coins
+            </Link>
+            <Button colorScheme="teal" variant="outline" onClick={toggleColorMode}>
+              {colorMode === 'light' ? 'Dark' : 'Light'} Mode
+            </Button>
+          </Stack>
+        </Flex>
+      </Flex>
+    </Box>
+  );
+};
+
+export default Navbar;
