@@ -1,70 +1,96 @@
-# Getting Started with Create React App
+# 🚀 CryptoTracker 💹
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+  <img src="https://img.shields.io/github/stars/Nikhil04-india/Cryptotracker?style=social" alt="Stars" />
+  <img src="https://img.shields.io/github/forks/Nikhil04-india/Cryptotracker?style=social" alt="Forks" />
+  <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome" />
+</p>
 
-## Available Scripts
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/109392232/273852300-363df356-3a89-46cf-b0e3-17c3002b4d8a.gif" alt="CryptoTracker Banner" />
+</p>
 
-In the project directory, you can run:
+## 🌟 About the Project
 
-### `npm start`
+**CryptoTracker** is a modern, responsive cryptocurrency tracking web application built with **React.js** and **Chakra UI**.  
+It allows you to:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+✅ Track your favorite cryptocurrencies in real-time.  
+✅ View detailed coin information including live charts, market data, volume, and price changes.  
+✅ Explore top crypto exchanges and their rankings.  
+✅ Navigate through a beautiful, smooth, and minimal UI inspired by leading crypto platforms like WazirX and CoinDCX.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🖥️ Live Demo
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+🚨 **Check out the live project here:**  
+👉 [CryptoTracker Live Website](https://majorproject-azure.vercel.app/)
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🚩 Features
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- 🔥 Modern & clean UI inspired by industry leaders.
+- 💹 Real-time price updates for cryptocurrencies.
+- 📊 Detailed coin pages with interactive charts.
+- 💱 Explore top global exchanges and their details.
+- 📈 View market cap, volume, rank, and price changes (1h, 24h).
+- 🌙 Dark & light mode ready with Chakra UI theming.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## ⚙️ Tech Stack
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- ⚛ **React.js** — Front-end library for building UI.
+- 💅 **Chakra UI** — Component library for beautiful and responsive design.
+- 💬 **Axios** — For fetching live crypto data from CoinGecko API.
+- 🚀 **Node.js & Express** — Backend server (server.js) to serve build files and handle APIs.
+- 🌍 **React Router DOM** — Client-side routing.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🚀 Getting Started
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Prerequisites
 
-## Learn More
+- Node.js (v14+ recommended)
+- npm or yarn
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Installation
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+# Clone the repository
+gh repo clone Nikhil04-india/Cryptotracker
 
-### Code Splitting
+# Navigate into the project directory
+cd Cryptotracker
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+# Install dependencies
+npm install
 
-### Analyzing the Bundle Size
+# Start the development server
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Production Build
 
-### Making a Progressive Web App
+```bash
+npm run build
+node server.js
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 🤝 Connect with Me
 
-### Advanced Configuration
+- 🔗 [LinkedIn - Nikhil Agarwal](https://www.linkedin.com/in/nikhil-04/)
+- 🌐 [Visit My Portfolio](https://agarwalnikhil.netlify.app/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### ⭐ Support
 
-### Deployment
+If you like this project, please consider giving it a ⭐ on GitHub!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### 📝 License
 
-### `npm run build` fails to minify
+This project is licensed under the MIT License. Feel free to use it for your learning or build upon it!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<p align="center"> 🚀 Built with ❤️ by <a href="https://www.linkedin.com/in/nikhil-04/">Nikhil Agarwal</a> </p> 
